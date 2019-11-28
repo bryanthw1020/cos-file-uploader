@@ -1,0 +1,29 @@
+{
+    "name": "bryanthw1020/cos-file-uploader",
+    "description": "Laravel file upload using Tencent COS service integration.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bryan Tan",
+            "email": "bryantanhw@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "qcloud/cos-sdk-v5": ">=2.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "bryanthw1020\\CosFileUploader\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "bryanthw1020\\CosFileUploader\\Tests\\": "tests/"
+        }
+    }
+}
